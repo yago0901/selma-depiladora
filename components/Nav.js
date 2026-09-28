@@ -18,7 +18,6 @@ export default function Nav() {
   const links = [
     ["Sobre", "#sobre"],
     ["Serviços", "#servicos"],
-    ["Ambiente", "#ambiente"],
     ["Depoimentos", "#depoimentos"],
     ["Contato", "#contato"],
   ];
