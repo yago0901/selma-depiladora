@@ -15,29 +15,24 @@ import Link from "next/link";
 const services = [
   {
     icon: IconSpark,
-    title: "Depilação com Cera",
-    text: "O método mais seguro e completo para a sua pele: resultado liso, duradouro e feito com todo o cuidado.",
-  },
-  {
-    icon: IconLeaf,
-    title: "Design de Sobrancelhas",
-    text: "Uma sobrancelha desenhada para o seu rosto, que valoriza o seu olhar e mantém a naturalidade.",
-  },
-  {
-    icon: IconHands,
-    title: "Dermaplaning",
-    text: "Esfoliação delicada que remove pelinhos e células mortas, deixando a pele macia, uniforme e pronta para brilhar.",
+    title: "Epilação com Cera Elástica",
+    text: "Feita com cera elástica pelo método espanhol: uma técnica delicada e completa, pensada para respeitar a sua pele.",
   },
   {
     icon: IconDrop,
+    title: "Clareamento de Axila e Virilha",
+    text: "Cuidado para uniformizar o tom da pele nessas regiões, com atendimento discreto e acolhedor.",
+  },
+  {
+    icon: IconHands,
     title: "Tratamento de Estrias",
-    text: "Cuidado premium para melhorar a aparência da pele, com protocolo pensado para o seu caso.",
+    text: "Tratamento com Microderme para melhorar a aparência das estrias, com 7 anos de experiência.",
   },
 ];
 
 const benefits = [
-  { icon: IconGrad, title: "18 anos de técnica", text: "Experiência de verdade em cada sessão, com domínio de cada detalhe do procedimento." },
-  { icon: IconHeart, title: "Sem manchas, sem alergias", text: "Apenas uma profissional experiente garante a epilação perfeita, com a pele bem cuidada." },
+  { icon: IconGrad, title: "19 anos de técnica", text: "Experiência de verdade em cada sessão, com domínio de cada detalhe do procedimento." },
+  { icon: IconHeart, title: "Sempre estudando", text: "Estudante de Estética e Cosmética, unindo a prática de muitos anos ao conhecimento atualizado." },
   { icon: IconUser, title: "Atendimento só seu", text: "Cada sessão é individual, feita com atenção, escuta e respeito ao seu tempo." },
   { icon: IconHands, title: "Clientes que voltam", text: "A confiança de quem já conhece o trabalho está nas avaliações do Google." },
 ];
@@ -52,13 +47,13 @@ export default function Home() {
         <div className="hero-grain" />
         <div className="container hero-inner">
           <div className="hero-copy">
-            <span className="eyebrow">Depilação e estética · {site.city}</span>
+            <span className="eyebrow">Epilação e estética · {site.city}</span>
             <h1>
-              A pele lisinha que você procura, com <em>18 anos</em> de técnica e cuidado.
+              A pele lisinha que você procura, com <em>19 anos</em> de técnica e cuidado.
             </h1>
             <p>
-              Cera, sobrancelha, dermaplaning e tratamento de estrias com quem
-              entende de pele lisinha e bem cuidada.
+              Epilação com cera elástica no método espanhol, clareamento de axila e virilha
+              e tratamento de estrias, com quem entende de pele lisinha e bem cuidada.
             </p>
             <div className="hero-actions">
               <a className="btn btn-wa" href={whatsappLink()} target="_blank" rel="noopener noreferrer">
@@ -68,6 +63,7 @@ export default function Home() {
             </div>
           </div>
 
+
           <Reveal delay={200} variant="zoom" className="hero-visual">
             <div className="hero-frame">
               <img src="/selma-hero.webp" alt="Selma sorrindo, especialista em depilação e estética" />
@@ -76,10 +72,10 @@ export default function Home() {
         </div>
 
         <div className="hero-stats">
-          <div><div className="num">18 anos</div><div className="lbl">de experiência</div></div>
-          <div><div className="num">Cera</div><div className="lbl">segura e completa</div></div>
-          <div><div className="num">Sobrancelha</div><div className="lbl">design personalizado</div></div>
-          <div><div className="num">Dermaplaning</div><div className="lbl">pele macia e uniforme</div></div>
+          <div><div className="num">19 anos</div><div className="lbl">de experiência</div></div>
+          <div><div className="num">Cera elástica</div><div className="lbl">método espanhol</div></div>
+          <div><div className="num">Clareamento</div><div className="lbl">axila e virilha</div></div>
+          <div><div className="num">Estrias</div><div className="lbl">7 anos de experiência</div></div>
         </div>
       </header>
 
@@ -97,10 +93,11 @@ export default function Home() {
 
           <Reveal variant="right" delay={120} className="about-text">
             <span className="eyebrow">Sobre a Selma</span>
-            <h2>Cuidado pessoal, com autoridade de quem faz há 18 anos.</h2>
+            <h2>Cuidado pessoal, com a experiência de quem faz há 19 anos.</h2>
             <p>
-              Apenas uma profissional com <strong>18 anos de experiência</strong> pode
-              garantir a epilação perfeita, <strong>sem manchas ou alergias</strong>.
+              Sou a Selma, epiladora com <strong>19 anos de experiência</strong> e estudante de{" "}
+              <strong>Estética e Cosmética</strong>. Trabalho com cera elástica pelo método
+              espanhol, clareamento de axila e virilha e, há 7 anos, com tratamento de estrias.
             </p>
             <p>
               Aqui o atendimento é acolhedor e individual: você chega, relaxa e sai com a
@@ -191,7 +188,7 @@ export default function Home() {
       <section className="cta">
         <div className="container cta-inner">
           <Reveal><span className="eyebrow center">Vamos cuidar de você?</span></Reveal>
-          <Reveal delay={80}><h2>Sua pele lisinha e bem cuidada, com quem tem 18 anos de experiência</h2></Reveal>
+          <Reveal delay={80}><h2>Sua pele lisinha e bem cuidada, com quem tem 19 anos de experiência</h2></Reveal>
           <Reveal delay={140}><p>Chame a Selma no WhatsApp e escolha o melhor horário para você.</p></Reveal>
           <Reveal delay={200}>
             <a className="btn btn-gold" href={whatsappLink()} target="_blank" rel="noopener noreferrer">
@@ -207,7 +204,7 @@ export default function Home() {
             <div>
               <div className="brand"><span className="mark">Maria Selma</span></div>
               <p className="about-p">
-                Depilação e estética com mais de 18 anos de técnica, em um atendimento acolhedor e individual.
+                Epilação e estética com 19 anos de técnica, em um atendimento acolhedor e individual.
               </p>
             </div>
             <div>

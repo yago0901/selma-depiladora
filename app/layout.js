@@ -6,24 +6,23 @@ const serif = Cormorant_Garamond({ subsets: ["latin"], weight: ["500", "600"], v
 const sans = Montserrat({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata = {
-  // TROQUE pelo domínio real da Maria Selma quando tiver
   metadataBase: new URL("https://mariaselmadepiladora.com.br"),
-  title: "Maria Selma Depiladora | Zona Norte de São Paulo",
+  title: "Maria Selma Depiladora | Tucuruvi, São Paulo",
   description:
-    "Depilação com cera, design de sobrancelhas, dermaplaning e tratamento de estrias na Zona Norte de São Paulo. Mais de 18 anos de experiência. Agende pelo WhatsApp.",
+    "Epilação com cera elástica (método espanhol), clareamento de axila e virilha e tratamento de estrias no Tucuruvi, São Paulo. 19 anos de experiência. Agende pelo WhatsApp.",
   keywords: [
-    "depiladora zona norte São Paulo",
-    "depilação com cera",
-    "depilação zona norte SP",
-    "design de sobrancelhas",
-    "dermaplaning",
+    "depiladora Tucuruvi",
+    "epilação com cera elástica",
+    "método espanhol",
+    "clareamento de axila e virilha",
     "tratamento de estrias",
+    "depilação zona norte São Paulo",
     "Maria Selma Depiladora",
   ],
   openGraph: {
-    title: "Maria Selma Depiladora | Zona Norte de São Paulo",
+    title: "Maria Selma Depiladora | Tucuruvi, São Paulo",
     description:
-      "A pele lisinha que você procura, com mais de 18 anos de técnica e cuidado. Cera, sobrancelha, dermaplaning e estrias.",
+      "A pele lisinha que você procura, com 19 anos de técnica e cuidado. Cera elástica, clareamento e tratamento de estrias.",
     type: "website",
     locale: "pt_BR",
     siteName: "Maria Selma Depiladora",

@@ -3,11 +3,11 @@ import { useState } from "react";
 
 // Ajuste título e legenda conforme cada foto
 const items = [
-  { src: "/resultado-1.webp", title: "Depilação com cera", sub: "Pele lisinha e bem cuidada", alt: "Resultado de depilação com cera" },
-  { src: "/resultado-2.webp", title: "Design de sobrancelhas", sub: "Desenhada para o seu rosto", alt: "Resultado de design de sobrancelhas" },
-  { src: "/resultado-3.webp", title: "Dermaplaning", sub: "Pele macia e uniforme", alt: "Resultado de dermaplaning" },
-  { src: "/resultado-4.webp", title: "Tratamento de estrias", sub: "Cuidado com a sua pele", alt: "Resultado de tratamento de estrias" },
-  { src: "/resultado-5.webp", title: "Depilação com cera", sub: "Resultado de atendimento", alt: "Resultado de atendimento" },
+  { src: "/resultado-1.webp", title: "Epilação com cera elástica", sub: "Método espanhol", alt: "Resultado de epilação com cera elástica" },
+  { src: "/resultado-2.webp", title: "Clareamento de axila e virilha", sub: "Pele mais uniforme", alt: "Resultado de clareamento de axila e virilha" },
+  { src: "/resultado-3.webp", title: "Tratamento de estrias", sub: "Microderme", alt: "Resultado de tratamento de estrias" },
+  { src: "/resultado-4.webp", title: "Tratamento de estrias", sub: "7 anos de experiência", alt: "Resultado de tratamento de estrias" },
+  { src: "/resultado-5.webp", title: "Epilação com cera elástica", sub: "Pele lisinha e bem cuidada", alt: "Resultado de atendimento" },
 ];
 
 // ângulos fixos (evita erro de hidratação do Next)
